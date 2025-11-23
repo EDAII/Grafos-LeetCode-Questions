@@ -13,12 +13,12 @@ Foram selecionados quatro desafios de nível médio ou difícil na plataforma Le
 
 ### Desafios
 
-| Nome         | Desafio                                              | Link LeetCode                                                                                                                       |
-| ------------ | ---------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| Lucas Macedo |                              | [Link]()                                |
-| Lucas Macedo |                            | [Link]()                            |
-| Yasmim Rosa  |  | [Link]() |
-| Yasmim Rosa  |                 | [Link]()                 |
+| Nome         | Desafio                             | Link LeetCode                                                                                                  |
+| ------------ | ----------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| Lucas Macedo | Longest Increasing Path in a Matrix | [Link](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/?envType=problem-list-v2&envId=graph) |
+| Lucas Macedo |                                     | [Link]()                                                                                                       |
+| Yasmim Rosa  |                                     | [Link]()                                                                                                       |
+| Yasmim Rosa  |                                     | [Link]()                                                                                                       |
 
 ## Guia de instalação
 
@@ -36,7 +36,7 @@ O projeto funciona de maneira simples. Apenas as bibliotecas padrões do Python 
 
 Aqui tem as capturas de tela, conclusões e referências de cada desafio.
 
-- []()
+- [Longest Increasing Path in a Matrix](./longest_increasing_path_matrix/problem_solution.md)
 
 ## Vídeo de Apresentação
 
