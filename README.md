@@ -16,7 +16,7 @@ Foram selecionados quatro desafios de nível médio ou difícil na plataforma Le
 | Nome         | Desafio                             | Link LeetCode                                                                                                  |
 | ------------ | ----------------------------------- | -------------------------------------------------------------------------------------------------------------- |
 | Lucas Macedo | Longest Increasing Path in a Matrix | [Link](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/?envType=problem-list-v2&envId=graph) |
-| Lucas Macedo |                                     | [Link]()                                                                                                       |
+| Lucas Macedo | Cheapest Flights Within K Stops     | [Link](https://leetcode.com/problems/cheapest-flights-within-k-stops/?envType=problem-list-v2&envId=graph)     |
 | Yasmim Rosa  |                                     | [Link]()                                                                                                       |
 | Yasmim Rosa  |                                     | [Link]()                                                                                                       |
 
@@ -37,6 +37,7 @@ O projeto funciona de maneira simples. Apenas as bibliotecas padrões do Python 
 Aqui tem as capturas de tela, conclusões e referências de cada desafio.
 
 - [Longest Increasing Path in a Matrix](./longest_increasing_path_matrix/problem_solution.md)
+- [Cheapest Flights Within K Stops](./cheapest_flights_within_k_stops/problem_solution.md)
 
 ## Vídeo de Apresentação
 
