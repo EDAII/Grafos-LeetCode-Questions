@@ -9,7 +9,7 @@ Temos vários casais sentados em uma fileira de cadeiras, mas estão todos mistu
 A solução passa pelos assentos de dois em dois. Para cada par de assentos, verifico se a primeira pessoa está sentada ao lado do seu parceiro. Se não estiver, localizo onde está o parceiro correto e faço a troca. Para encontrar o parceiro de alguém, uso a operação XOR (`person ^ 1`) que funciona bem: se o número é par vira ímpar e vice-versa. Também mantenho um dicionário com as posições de cada pessoa, facilitando a busca pelo parceiro que precisa trocar de lugar.
 
 ## Capturas de tela
-[imagem](/couplrd_holding_hands/image.png)
+![imagem](/couplrd_holding_hands/image.png)
 
 ## Conclusões
 
