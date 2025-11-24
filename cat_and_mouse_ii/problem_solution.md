@@ -21,3 +21,6 @@ colocar
 ## Conclusões
 
 O minimax com memorização é adequado para este problema de teoria dos jogos. A complexidade pode ser alta, mas a memorização reduz significativamente os cálculos repetidos. O limite de 1000 movimentos previne loops infinitos. A solução funciona bem para grades pequenas como especificado nas restrições, embora possa ser lenta em casos mais complexos. É uma técnica aplicável a outros problemas de jogos adversariais.
+
+## Referências
+> PointlessVenture. The Minimax Algorithm. Medium, 12 dez. 2021. Disponível em: https://medium.com/@aidenrtracy/the-minimax-algorithm-f6e8e0a1eadb
