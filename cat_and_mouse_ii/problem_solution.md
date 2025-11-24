@@ -5,10 +5,10 @@
 Um gato e um rato jogam em um tabuleiro que contém paredes, espaços vazios e comida. O rato move primeiro e eles alternam turnos. Cada um pode pular até uma distância máxima nas quatro direções. O rato vence se alcançar a comida primeiro, enquanto o gato vence se capturar o rato, chegar na comida antes, ou se o jogo ultrapassar 1000 movimentos. A questão é determinar se o rato consegue vencer quando ambos jogam de forma ótima.
 
 Exemplo 1:
-![Exemplo 1](./exemplo_1.png)
+![Exemplo 1](/cat_and_mouse_ii/exemplo_1.png)
 
 Exemplo: 2:
-![Exemplo 2](./exemplo_2.png)
+![Exemplo 2](/cat_and_mouse_ii/exemplo_2.png)
 
 
 ## A resolução
