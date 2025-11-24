@@ -1,4 +1,4 @@
-from cat_and_mouse_ii import Solution
+from cat_and_mouses_ii import Solution
 
 class CatAndMouseIITest:
     def test_case(self, grid, cat_jump, mouse_jump, expected):

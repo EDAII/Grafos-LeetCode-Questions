@@ -16,7 +16,7 @@ Exemplo: 2:
 Usei minimax para simular todas as possibilidades do jogo. O rato tenta maximizar suas chances de vitória enquanto o gato tenta minimizá-las. Cada estado do jogo armazena a posição do rato, posição do gato, de quem é o turno e quantos movimentos já ocorreram. Para evitar recalcular os mesmos estados, implementei memorização com um dicionário. As condições de término incluem: rato alcança comida, gato alcança comida, gato captura rato, ou limite de 1000 movimentos excedido.
 
 ## Capturas de tela
-colocar
+[imagem](/cat_and_mouse_ii/image.png)
 
 ## Conclusões
 

@@ -20,6 +20,7 @@ class Solution:
         MAX_MOVES = 1000
         
         memo = {}
+        visiting = set()
         
         def get_moves(pos, max_jump):
             moves = [pos]
@@ -42,19 +43,35 @@ class Solution:
             if cat == food_pos or mouse == cat:
                 return CAT_WIN
             
-            if (mouse, cat, turn, moves) in memo:
-                return memo[(mouse, cat, turn, moves)]
+            state = (mouse, cat, turn)
+            
+            if state in visiting:
+                return DRAW
+            
+            if state in memo:
+                return memo[state]
+            
+            visiting.add(state)
             
             if turn == 0:
                 mouse_wins = False
+                draw_possible = False
                 for next_mouse in get_moves(mouse, mouseJump):
                     result = minimax(next_mouse, cat, 1, moves + 1)
                     if result == MOUSE_WIN:
                         mouse_wins = True
                         break
-                memo[(mouse, cat, turn, moves)] = MOUSE_WIN if mouse_wins else CAT_WIN
+                    elif result == DRAW:
+                        draw_possible = True
+                if mouse_wins:
+                    memo[state] = MOUSE_WIN
+                elif draw_possible:
+                    memo[state] = DRAW
+                else:
+                    memo[state] = CAT_WIN
             else:
                 cat_wins = False
+                draw_possible = False
                 for next_cat in get_moves(cat, catJump):
                     if next_cat == food_pos:
                         cat_wins = True
@@ -63,9 +80,17 @@ class Solution:
                     if result == CAT_WIN:
                         cat_wins = True
                         break
-                memo[(mouse, cat, turn, moves)] = CAT_WIN if cat_wins else MOUSE_WIN
+                    elif result == DRAW:
+                        draw_possible = True
+                if cat_wins:
+                    memo[state] = CAT_WIN
+                elif draw_possible:
+                    memo[state] = DRAW
+                else:
+                    memo[state] = MOUSE_WIN
             
-            return memo[(mouse, cat, turn, moves)]
+            visiting.remove(state)
+            return memo[state]
         
         result = minimax(mouse_pos, cat_pos, 0, 0)
         return result == MOUSE_WIN
