@@ -43,6 +43,5 @@ Aqui tem as capturas de tela, conclusões e referências de cada desafio.
 
 ## Vídeo de Apresentação
 
-Aqui está o vídeo de apresentação do projeto:
+Aqui está o vídeo de apresentação do projeto: [https://youtu.be/wXgLe_3CpXo](https://youtu.be/wXgLe_3CpXo)
 
-[]()
