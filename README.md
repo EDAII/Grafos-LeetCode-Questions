@@ -17,8 +17,8 @@ Foram selecionados quatro desafios de nível médio ou difícil na plataforma Le
 | ------------ | ----------------------------------- | -------------------------------------------------------------------------------------------------------------- |
 | Lucas Macedo | Longest Increasing Path in a Matrix | [Link](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/?envType=problem-list-v2&envId=graph) |
 | Lucas Macedo | Cheapest Flights Within K Stops     | [Link](https://leetcode.com/problems/cheapest-flights-within-k-stops/?envType=problem-list-v2&envId=graph)     |
-| Yasmim Rosa  |                                     | [Link]()                                                                                                       |
-| Yasmim Rosa  |                                     | [Link]()                                                                                                       |
+| Yasmim Rosa  | Cat and Mouses II                   | [Link](https://leetcode.com/problems/cat-and-mouse-ii/description/?envType=problem-list-v2&envId=graph)        |
+| Yasmim Rosa  | Couples Holding Hands               | [Link](https://leetcode.com/problems/couples-holding-hands/?envType=problem-list-v2&envId=graph)               |
 
 ## Guia de instalação
 
@@ -38,6 +38,8 @@ Aqui tem as capturas de tela, conclusões e referências de cada desafio.
 
 - [Longest Increasing Path in a Matrix](./longest_increasing_path_matrix/problem_solution.md)
 - [Cheapest Flights Within K Stops](./cheapest_flights_within_k_stops/problem_solution.md)
+- [Cat and Mouses II](./cat_and_mouse_ii/problem_solution.md)
+- [Couples Holding Hands](./couples_holding_hands/problem_solution.md)
 
 ## Vídeo de Apresentação
 
