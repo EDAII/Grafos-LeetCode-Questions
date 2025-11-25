@@ -19,11 +19,11 @@ def main():
     
     test.test_case([0, 1], 0)
     
-    test.test_case([1, 0], 1)
+    test.test_case([1, 0], 0)
     
-    test.test_case([0, 2, 4, 6, 1, 3, 5, 7], 3)
+    test.test_case([0, 2, 4, 6, 1, 3, 5, 7], 2)
     
-    test.test_case([5, 4, 2, 6, 3, 1, 0, 7], 3)
+    test.test_case([5, 4, 2, 6, 3, 1, 0, 7], 2)
 
 if __name__ == "__main__":
     main()

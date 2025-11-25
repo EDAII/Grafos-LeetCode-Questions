@@ -6,11 +6,13 @@ Temos vários casais sentados em uma fileira de cadeiras, mas estão todos mistu
 
 ## A resolução
 
-A solução passa pelos assentos de dois em dois. Para cada par de assentos, verifico se a primeira pessoa está sentada ao lado do seu parceiro. Se não estiver, localizo onde está o parceiro correto e faço a troca. Para encontrar o parceiro de alguém, uso a operação XOR (`person ^ 1`) que funciona bem: se o número é par vira ímpar e vice-versa. Também mantenho um dicionário com as posições de cada pessoa, facilitando a busca pelo parceiro que precisa trocar de lugar.
+A solução modela o problema usando grafos. Cada **casal** é um nó no grafo, e se dois casais diferentes estão entrelaçados no mesmo sofá (uma pessoa de cada casal), criamos uma aresta entre eles. Para descobrir a qual casal cada pessoa pertence, uso divisão inteira (`person // 2`): as pessoas 0 e 1 pertencem ao casal 0, as pessoas 2 e 3 ao casal 1, e assim por diante.
+
+Depois de construir o grafo, uso DFS (busca em profundidade) para encontrar todos os componentes conexos. A chave é que cada componente conexo de tamanho k precisa de exatamente k-1 trocas para ser resolvido. Somo todas essas quantidades e obtenho o resultado final.
 
 ## Capturas de tela
 ![imagem](/couples_holding_hands/image.png)
 
 ## Conclusões
 
-Essa abordagem funciona porque cada troca sempre deixa pelo menos um casal junto, sem desfazer o que já foi arrumado. O algoritmo percorre o array uma única vez, sendo bastante eficiente. É uma solução direta que aproveita bem a propriedade matemática dos pares, e o truque do XOR simplifica bastante o código.
+Casais entrelaçados formam ciclos que precisam ser "quebrados". Cada componente conexo representa um grupo de casais que estão misturados entre si, e a fórmula k-1 vem da teoria de grafos.
